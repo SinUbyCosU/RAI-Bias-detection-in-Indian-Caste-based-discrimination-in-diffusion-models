@@ -1,0 +1,18 @@
+# Python 3.10+; CUDA build of torch for your driver (https://pytorch.org/get-started/locally)
+torch>=2.3
+diffusers>=0.35        # needs Sana/SD3.5/FLUX/Hunyuan pipelines + encode_prompt tuple API
+transformers>=4.50     # Qwen2.5-VL, CLIP
+accelerate
+safetensors
+sentencepiece
+protobuf
+peft>=0.12             # LoRA (ft_lora)
+bitsandbytes>=0.43     # nf4 for FLUX / SD3.5-large, 4-bit VLM
+huggingface_hub
+pillow
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+tabulate
